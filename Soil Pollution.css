@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0; 
+}
+
+body {
+    background-image: url('tropical-forest-landscape-with-dense-forest_52683-24165.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.navrow {
+    border: 2px solid black;
+} 
+
+#navbar {
+    min-width: 100vw;
+    background-color: rgba(17,170,175,0.8);
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    color: purple;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: helvetica;
+    margin: 5em 10px;
+    /* min-width: 10em; */
+    height: 2rem;
+    text-align: left;
+
+}.sticky{
+    position: fixed;
+    top:0;
+}
+
+#navbar>a,.head>a {
+    text-decoration: none;
+    font-style: none;
+}
+
+label:hover{
+    font-weight: 600;
+    transform: scale3d(1.01, 1.01, 1);
+    color:blue;
+    /* text-decoration: underline rgb(97, 187, 223); */
+}
+HEADER{
+    width: 100%;
+}
+h1 {
+    background-image: url('banner2.jpg');
+    text-align: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: hwb(0 0% 100%);
+    font-size: 50px;
+    min-height: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline solidrgb(207, 138, 59)a;
+    color: hsl(24, 100%, 36%);
+}
+
+.cont {
+    font-size: 25px;
+    /* font-family: "IberPangea", sans-serif !important; */
+    color: rgb(68, 68, 68);
+    line-height: 35px;
+}
+
+.img {
+    width: 50vw;
+    margin: 0 8rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.figcaps {
+    /* font-family: Parkavenue, cursive;
+    ; */
+    font-style: italic;
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+/*.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+} */
+.allrows {
+    padding: 0 10em 0 10em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img:hover {
+    transform: scale3d(1.01, 1.01, 1);
+}
+
+#def .alr {
+    margin-left: 35em;
+    background-color: aquamarine;
+}
+
+
+#im3 {
+    margin-left: 5em;
+}
+
+.harmslist {
+    list-style: disc;
+}
+
+.harmslist>li::before {
+    padding-right: 10px;
+
+}
+
+.button {
+    margin: 0 40%;
+}
+
+.goback {
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 30px;
+    /* font-family: helvetica; */
+}
+.button > a{
+    font-style: none;
+    text-decoration: none;
+}
+
+.droplist{
+    display: none;
+    background-color: rgba(150,150,150,.5);
+    min-width: 10em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+}
+.dropdown:hover .droplist{display:block;}
+
+
+.droplist a{
+    color: white;
+    padding: 12px 16px;
+
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+.droplist a:hover{
+    font-size: 27px;
+    text-decoration: underline rgb(88, 147, 224);
+}
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+.dropdown a{
+    text-decoration: none;
+  }
+#card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap:nowrap;
+    font-size: large;
+    flex-direction: column;
+    margin-left: 20px;
+    overflow: hidden;
+}    
+.secr{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+} 
+
+#card img {
+    max-width: 275px;
+    height: 180px;
+}
+
+#card h2 {
+    font-size: 25px;
+}
